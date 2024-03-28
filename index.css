@@ -1,0 +1,24 @@
+
+  .form-group {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .form-group label {
+    margin-right: 10px; 
+  }
+
+  .form-group input[type="radio"] {
+    margin-right: 12px; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    width: 1em; 
+    height: 1em; 
+    border: 1px solid #333; 
+    border-radius: 0;
+  }
+  
+  .form-group input[type="radio"]:checked {
+    background-color: rgb(124, 255, 124); 
+  }
